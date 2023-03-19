@@ -1,0 +1,36 @@
+/***PROGRAM FOR DEMONSTRATING THE WORK OF long,short,double,char,float,int  KEYWORDS***/
+
+#include<stdio.h>
+int main()
+{
+
+    int a;
+    long int b;
+    long double c;
+    long long d;
+    long f;
+    double g;
+    short int h;
+    float i;
+    char j;
+
+    printf("The Size of int :%d bytes \n",sizeof(a));             /***sizeof operator is used for determining the sizes of datatypes***/
+
+    printf("The Size of long int:%d bytes \n",sizeof(b));
+
+      printf("The Size of  long double :%d bytes\n",sizeof(c));
+
+          printf("The Size of  long long:%d bytes\n",sizeof(d));
+          
+          printf("The Size of  long :%d bytes\n",sizeof(f));
+          
+          printf("The Size of  double :%d bytes\n",sizeof(g));
+          
+          printf("The Size of short int:%d bytes\n",sizeof(h));
+          
+            printf("The Size of float :%d bytes\n",sizeof(i));
+            
+              printf("The Size of char:%d bytes\n",sizeof(j));
+}
+
+

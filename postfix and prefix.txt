@@ -1,0 +1,23 @@
+/*** postfix and prefix increment***/
+
+#include<stdio.h>
+
+int main()
+{
+
+
+ int var=10;
+ int var1=20;
+
+ printf("var=%d\n",var);
+
+ printf("var1=%d\n",var1);
+
+ printf("++var=%d\n",++var);
+
+ printf("var1++=%d\n",var1++); //FIrst displays the value of var1//
+
+ printf("var1=%d\n",var1); //Increase the value of var1 by 1//
+
+
+}

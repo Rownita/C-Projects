@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+
+printf("\t\t\"North South University\"\n\n");
+printf("Hello class of cse 115L!!!Welcome to NSU");
+printf("\n");
+
+}

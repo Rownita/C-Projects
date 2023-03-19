@@ -1,0 +1,18 @@
+/*** 2. Write a program that will take a positive integer as input and will display the sum of all the digits as
+output. If the input is 135, then your program should display 9.***/
+#include<stdio.h>
+int main()
+{
+
+    int remainder,sum=0,n;
+    printf("ENTER A NUMBER:");
+    scanf("%d",&n);
+    while(n!=0)
+    {
+
+        remainder=n%10;               // this loop takes out every integer from the number until n==0//
+        sum=sum+remainder;
+        n=n/10;
+    }
+    printf("THE SUM OF DIGITS:%d",sum);
+}

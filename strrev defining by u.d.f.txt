@@ -1,0 +1,23 @@
+#include<stdio.h>
+void strcat(char a[],char b[])
+{
+int i,len,j;
+for(i=0;a[i]!='\0';i++)
+len++;
+for(j=0;b[j]!='\0';j++)
+a[len+1+j]=b[j];
+
+a[len+1+j]='\0';
+
+}
+int main()
+{
+    char a[100],b[50];
+printf("ENTER THE STRING1:");
+gets(a);
+printf("ENTER THE STRING 2:");
+gets(b);
+strcat(a,b);
+printf("strcat(a,b):%s",a);
+return 0;
+}

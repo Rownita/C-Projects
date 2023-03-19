@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int i=1,factorial=1,n;
+    printf(" ENTER THE nonnegative INTEGER: ");
+    scanf("%d",&n);
+    do
+
+    {
+        factorial=i*factorial;
+        ++i;
+
+
+
+    }
+      while(i<=n);
+
+    printf("%d!=%d",n,factorial);
+}

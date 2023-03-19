@@ -1,0 +1,50 @@
+#include<stdio.h>
+
+int main()
+{
+
+    int x;
+    char y;
+    double z;
+    short int a;
+    long double b;
+    long long c;
+    long int d;
+    float e;
+    long f;
+    float array[100];
+    long array1[100];
+    int array2[100];
+    double array3[100];
+    char array4[100];
+
+    printf("sizeof(int):%d\n",sizeof(x));
+
+        printf("size of(char):%d\n",sizeof(y));
+
+         printf("size of(double):%d\n",sizeof(z));
+
+         printf("size of(short int):%d\n",sizeof(a));
+
+          printf("size of(long double):%d\n",sizeof(b));
+
+           printf("size of(long long):%d\n",sizeof(c));
+
+            printf("size of(long int):%d\n",sizeof(d));
+
+             printf("size of(float):%d\n",sizeof(e));
+
+              printf("size of(float array[100]):%d\n",sizeof(array));
+
+               printf(" size of(long):%d\n",sizeof(f));
+
+              printf("size of(long array1[100]):%d\n",sizeof(array1));
+
+              printf("size of(int array2[100]):%d\n",sizeof( array2));
+
+              printf("size of(double array3[100]:%d\n",sizeof(array3));
+
+              printf("size of(char array4[100]:%d\n",sizeof(array4));
+
+
+}

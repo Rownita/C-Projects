@@ -1,0 +1,23 @@
+/***postfix and prefix decrement***/
+
+int main()
+{
+    int x;
+    int y;
+    printf("x=?");
+    scanf("%d",&x);
+
+    printf("x=%d\n",x);
+    printf("--x=%d\n",--x);/***first decreases the value by 1***/
+
+
+    printf("y=?");
+    scanf("%d",&y);
+
+    printf("y=%d\n",y);
+
+    printf("y--=%d\n",y--);/*** first displays the value of variable***/
+
+    printf("y=%d\n",y); /***DECREASES THE VALUE OF VARIABLE BY 1***/
+
+}

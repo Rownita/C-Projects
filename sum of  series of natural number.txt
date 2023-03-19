@@ -1,0 +1,15 @@
+/*** program to calculate first n positive integers***/
+#include<stdio.h>
+int main()
+{
+
+    int i,sum,n;
+    printf("ENTER THE LAST NUMBER OF THE SERIES:");
+    scanf("%d",&n);
+    for(i=0,sum=0;i<=n;++i)
+    {
+        sum=sum+i;
+    }
+    printf("THE SUM OF THE SERIES:%d",sum);
+
+}

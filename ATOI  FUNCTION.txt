@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int atoi(char a [])
+{
+int i=0;
+    //initializing i to 0 as the first index//
+
+int sign=1;
+ // initializing sign to 1 as a positive number//
+
+int result=0; //intialize result to 0//
+
+if(a[0]=='-') 
+            
+ // 1.if first element is - sign then assign -1 to sign variable //
+
+{
+sign=-1;
+i++;            //2.After activating sign variable ,proceed to next index which is a string constant//
+}
+
+for(;a[i]!='\0';i++)
+{
+result=result*10+a[i]-'0';       //'0' is a ASCII 0 //
+}
+return sign*result;
+
+}
+
+int main()
+{
+char a[100];
+printf("ENTER THE STRING:");
+gets(a);
+int value=atoi(a);
+printf("INTEGER VALUE:%d",value);
+}

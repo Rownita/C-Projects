@@ -1,0 +1,42 @@
+/***A program that demonstrate the function of conditional operator(? :)***/
+// A program that takes positive integers as  input and prints the month//
+
+#include<stdio.h>
+
+int main()
+{
+int i;
+
+
+printf("Enter the number 1 through 12 :");
+
+scanf("%d",&i);
+
+
+ (i==1)?(printf("First month is January")):(printf("this month comes after January\n"));
+
+ (i==2)?(printf("Second month is FEBRUARY")):(printf("This month comes after January\n"));
+
+ (i==3)?(printf("Third  month is MARCH")):(printf("This month comes after January\n"));
+
+ (i==4)?(printf("Fourth month is APRIL")):(printf("This month comes after January\n"));
+ (i==5)?(printf("Fifth month is MAY")):(printf("This month comes after January\n"));
+
+ (i==6)?(printf("Sixth month is JUNE")):(printf("This month comes after January\n"));
+
+ (i==7)?(printf("Seventh month is JULY")):(printf("This month comes after January\n"));
+
+ (i==8)?(printf("Eighth month is August")):(printf("This month comes after January\n"));
+
+ (i==9)?(printf("Ninth  month is SEPTEMBER")):(printf("This month comes after January\n"));
+
+ (i==10)?(printf("TENTH month is OCTOBER")):(printf("This month comes after January\n"));
+
+ (i==11)?(printf("ELEVENTH month is NOVEMBER")):(printf("This month comes after January\n"));
+
+ (i==12)?(printf("TWELVETH month is DECEMBER")):(printf("This month comes after January\n"));
+
+
+
+
+}

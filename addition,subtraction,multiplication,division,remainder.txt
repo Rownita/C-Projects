@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+int main()
+{
+int m,n,a,s;
+int r;
+int q;
+
+printf("m=?");
+
+scanf("%d",&m);
+
+printf("n=?");
+
+scanf("%d",&n);
+
+s=m-n;
+
+printf("SUBTRACTION:%d\n",s);
+
+a=m+n;
+
+printf("ADDITION:%d\n",a);
+
+q=m/n;
+
+printf("QUOTIENT:%d\n",q);
+
+r=m%n;
+
+printf("REMAINDER:%d",r);
+
+
+
+}

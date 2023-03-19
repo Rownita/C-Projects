@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int i,a,n;
+int sum=0;
+printf("FIRST NUMBER OF SERIES:");
+scanf("%d",&a);
+printf("LAST NUMBER OF THE SERIES:");
+scanf("%d",&n);
+
+for(i=a;i<=n;i++)
+{
+sum=sum+i;
+
+}
+printf("SUM=%d",sum);
+return 0;
+
+}

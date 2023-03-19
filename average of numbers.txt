@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+int a[100],n,i,sum=0,Average;
+printf("ENTER THE NUMBER OF DIGITS:");
+scanf("%d",&n);
+
+for(i=0;i<n;i++){
+printf("ENTER THE %d TH NUMBER:",i+1);
+scanf("%d",&a[i]);
+sum=sum+a[i];
+
+}
+Average=sum/n;
+printf("THE AVERAGE IS %d",Average);
+
+}

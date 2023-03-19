@@ -1,0 +1,79 @@
+#include<stdio.h>
+struct student
+{
+char name[50];
+int idno;
+float marks1;
+float marks2;
+float marks3;
+}student1,student2,student3;
+
+int main()
+{
+printf("ENTER THE INFORMATION OF THREE STUDENTS:\n");
+printf("Enter the information of student 1:\n");
+printf("NAME:");
+gets(student1.name);
+printf("ID NO. :");
+scanf("%d", &student1.idno);
+printf("MARKS OF ENGLISH:");
+scanf("%f", &student1.marks1);
+printf("MARKS OF MATHEMATICS:");
+scanf("%f", &student1.marks2);
+printf("MARKS OF PHYSICS:");
+scanf("%f", &student1.marks3);
+
+printf("Enter the information of student 2:\n");
+printf("NAME:");
+scanf("%s", &student2.name);
+printf("ID NO. :");
+scanf("%d", &student2.idno);
+printf("MARKS OF ENGLISH:");
+scanf("%f", &student2.marks1);
+printf("MARKS OF MATHEMATICS:");
+scanf("%f", &student2.marks2);
+printf("MARKS OF PHYSICS:");
+scanf("%f", &student2.marks3);
+
+printf("Enter the information of student 3:\n");
+printf("NAME:");
+scanf("%s", &student3.name);
+printf("ID NO. :");
+scanf("%d", &student3.idno);
+printf("MARKS OF ENGLISH:");
+scanf("%f", &student3.marks1);
+printf("MARKS OF MATHEMATICS:");
+scanf("%f", &student3.marks2);
+printf("MARKS OF PHYSICS:");
+scanf("%f", &student3.marks3);
+
+printf("DISPLAYING THE INFORMATION:\n");
+
+printf("INFORMATION OF STUDENT 1:\n");
+printf("NAME:%s\n",student1.name);
+printf("ID NO:%d\n",student1.idno);
+printf("MARKS OF  ENGLISH:%f\n",student1.marks1);
+printf("MARKS OF  MATHEMATICS:%f\n",student1.marks2);
+printf("MARKS OF PHYSICS:%f\n",student1.marks3);
+
+printf("INFORMATION OF STUDENT 2:\n");
+printf("NAME:%s\n",student2.name);
+printf("ID NO:%d\n",student2.idno);
+printf("MARKS OF  ENGLISH:%f\n",student2.marks1);
+printf("MARKS OF  MATHEMATICS:%f\n",student2.marks2);
+printf("MARKS OF PHYSICS:%f\n",student2.marks3);
+
+printf("INFORMATION OF STUDENT 3:\n");
+printf("NAME:%s\n",student3.name);
+printf("ID NO:%d\n",student3.idno);
+printf("MARKS OF  ENGLISH:%f\n",student3.marks1);
+printf("MARKS OF  MATHEMATICS:%f\n",student3.marks2);
+printf("MARKS OF PHYSICS:%f\n",student3.marks3);
+
+}
+
+
+
+
+
+}

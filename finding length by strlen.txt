@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{int y;
+char a[200];
+printf("string:");
+gets(a);
+y=strlen(a);
+printf("THE LENGTH OF THE STRING:%d",y);
+}

@@ -1,0 +1,21 @@
+/***A PROGRAM FOR FIBONACCI SEQUENCE***/
+#include<stdio.h>
+int main()
+{
+
+    int i,a=-1,b=1,c=0,n;
+    printf("ENTER THE  NUMBER OF TERMS:");
+    scanf("%d",&n);
+    for(i=1;i<=n;++i)
+    {
+       c=a+b;          // first,calculate c// 
+
+       printf("%d\n",c); //second,print c//
+
+
+       a=b;
+       b=c;
+
+    }
+
+}

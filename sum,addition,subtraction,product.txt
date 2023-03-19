@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+float a,b,sum,difference,product,quotient;
+
+printf("INSERT 1ST NUMBER:");
+scanf("%f",&a);
+printf("INSERT 2ND NUMBER:");
+scanf("%f",&b);
+sum=a+b;
+difference=a-b;
+product=a*b;
+quotient=a/b;
+printf("SUM=%.3f\n",sum);
+printf("DIFFERENCE=%.3f\n",difference);
+printf("PRODUCT=%.3f\n",product);
+printf("QUOTIENT=%.3f\n",quotient);
+}

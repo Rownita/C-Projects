@@ -1,0 +1,13 @@
+/*** A PROGRAM RELATED TO DECISION MAKING USING CONDITIOINAL OPERATOR***/
+#include<stdio.h>
+int main()
+{
+
+    int days;
+    char feb;
+    printf("If the year is leap year,enter1 otherwise enter 2:");
+    scanf("%c",&feb);
+    days=(feb=='1')?29:28;
+    printf("THE NUMBER OF DAYS IN FEBRUARY IS %d",days);
+
+}

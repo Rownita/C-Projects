@@ -1,0 +1,42 @@
+/*** c program to demonstrate the work of increment and decrement***/
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+int a=10;
+int b=15;
+float c=10.5;
+float d=20.5;
+double e=20.1234;
+double f=30.1234;
+
+printf("a=%d\n",a);
+
+printf("b=%d\n",b);
+
+printf("c=%f\n",c);
+
+printf("d=%f\n",d);
+
+printf("e=%f\n",e);
+printf("f=%f\n",f);
+
+printf("++a=%d\n",++a);
+
+printf("--b=%d\n",--b);
+
+printf("++c=%f\n",++c);
+
+printf("--d=%f\n",--d);
+
+printf("--e=%f\n",--e);
+printf("++f=%f\n",++f);
+
+
+
+
+}

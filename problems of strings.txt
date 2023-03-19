@@ -1,0 +1,15 @@
+Task (10 marks)
+1. Take two string inputs, calculate lengths of both (without using strlen()) and display the smaller
+one.
+ 2. Write a program to compare two strings without using C library function.
+
+3. Declare two strings A and B of size 100 and 50, respectively. Then take user input of both strings.
+Concatenate (join) B at the end of A using loop. Display the concatenated string.
+Enter first string: Bangla
+Enter second string: desh
+After joining, first string: Bangladesh
+
+4. Check whether an input string is palindrome or not. A string is a palindrome if it remains the
+same after you reverse it. For example, “racecar”, “level”, “12321”, “madam” etc.
+Enter a string: racecar
+It’s a palindrome 

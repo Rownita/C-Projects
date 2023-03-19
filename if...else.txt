@@ -1,0 +1,14 @@
+// Program to display a number if user enters negative number
+// If user enters positive number, that number won't be displayed
+#include<stdio.h>
+int main()
+{
+
+    int i;
+    printf("ENTER THE NUMBER:");
+    scanf("%d",&i);
+    if(i<0)
+        printf("%d",i);
+    else
+        printf("THE NUMBER IS POSITIVE AND IT CANNOT BE DISPLAYED");
+}

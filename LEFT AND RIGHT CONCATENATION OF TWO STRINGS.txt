@@ -1,0 +1,76 @@
+/*** left as well as right concatenation of two strings ***/
+
+#include<stdio.h>
+
+#include<string.h>
+
+void leftcat(char a[],char b[])   
+                                                            /***  a is  the source string and b is the destination string ***/
+{
+int i,length=0,j;
+
+for(i=0;b[i]!='\0';i++)
+
+{
+length++;
+
+}
+
+for(i=length,j=0;a[j]!='\0';j++,i++)
+
+{
+b[i]=a[j];
+}
+b[i]='\0';
+}
+
+void rightcat(char a[],char b[])
+
+
+{
+    int i,length=0,j;
+
+for(i=0;a[i]!='\0';i++)
+
+{
+length++;
+
+}
+
+for(i=length,j=0;b[j]!='\0';j++,i++)
+
+{
+a[i]=b[j];
+
+}
+a[i]='\0';
+
+}
+
+int main()
+{
+char a[100],b[100],c[100],d[100];
+
+printf("ENTER THE STRING:");
+
+gets(a);
+
+printf("ENTER THE STRING:");
+
+gets(b);
+
+strcpy(c,a);
+
+strcpy(d,b);
+
+leftcat(a,b);
+
+printf("AFTER LEFT CONCATENATION:%s\n",b);
+
+
+rightcat(c,d);
+
+printf("AFTER RIGHT CONCATENATION :%s\n",c);
+
+return 0;
+}

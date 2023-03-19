@@ -1,0 +1,33 @@
+//4. Check whether an input string is palindrome or not. A string is a palindrome if it remains the//
+//same after you reverse it. For example, “racecar”, “level”, “12321”, “madam” etc.//
+//Enter a string: racecar//
+//It’s a palindrome //
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char a[100];
+int i, len;
+printf("ENTER A STRING:");
+gets(a);
+len=strlen(a);
+for(i=0;i<len/2;i++)
+{
+    
+    if(a[i]!=a[len-1-i])
+        printf("IT'S  NOT A PALINDROME.");  // here we have use break STATEMENT .The reason is that if one character is not equal ,
+                                                // then the execution of the for loop  will stop.//
+        break;
+
+
+}
+if(i==len/2)                        //this statement implies that if i proceeds to len/2 ,all the comparisons have //  become true.//
+printf("it's a palindrome.");
+
+
+
+return 0;
+}
+
+

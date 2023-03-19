@@ -1,0 +1,16 @@
+/***A PROGRAM THAT CALCULATES FACTORIAL***/
+#include<stdio.h>
+int main()
+{
+
+    int i,n,factorial=1;
+    printf("ENTER A POSITIVE NATURAL NUMBER:");
+    scanf("%d",&n);
+    for(i=1;i<=n;++i)
+    {
+
+       factorial=i*factorial;//IDEA OF RECURSION//
+
+    }
+    printf("factorial:%d",factorial);
+}

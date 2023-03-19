@@ -1,0 +1,25 @@
+3. Declare two strings A and B of size 100 and 50, respectively. Then take user input of both strings.
+Concatenate (join) B at the end of A using loop. Display the concatenated string.
+Enter first string: Bangla
+Enter second string: desh
+After joining, first string: Bangladesh
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+int y,i;
+char a[100],b[50];
+
+printf("ENTER FIRST STRING:");
+gets(a);
+printf("ENTER THE SECOND STRING:");
+gets(b);
+y=strlen(a);
+for(i=0;b[i]!='\0';i++,y++)
+a[y]=b[i];
+a[y]='\0';
+printf("after joining two strings:");
+printf("%s",a);
+
+}

@@ -1,0 +1,29 @@
+/*** COMPUTING DIMENSIONTIONAL WEIGHT OF A BOX***/
+#include<stdio.h>
+
+int main()
+{
+    float length,width,height;
+    float weight,volume; /*** declaring variables***/
+
+    printf("LENGTH=?");      /***Statements asking for inputs and taking inputs***/
+
+    scanf("%f",&length);
+
+    printf("WIDTH=?");
+
+    scanf("%f",&width);
+
+     printf("HEIGHT=?");
+
+     scanf("%f",&height);
+
+     volume=length*width*height;
+
+     weight=volume/166;
+                                                  /***it is convention in US to divide the volume by 166***/
+     printf("dimensional weight=%f\n",weight);     
+
+
+
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+char lower(char a)
+
+{
+if(a>='A'&&a<='Z')
+return a+'a'-'A' ;
+if(a>='a'&&a<='z')
+return a;
+}
+
+int main()
+
+{
+char a;
+printf("ENTER THE CHARACTER:");
+scanf("%c",&a);
+lower(a);
+printf("In lowercase:%c",lower(a));
+return 0;
+}

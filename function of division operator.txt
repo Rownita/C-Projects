@@ -1,0 +1,45 @@
+/***function of division operator***/
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  float m,n;
+  int r;
+  float x,y,z,u,v;
+  printf("a=?");
+
+  scanf("%d",&a);
+
+  printf("b=?");
+
+  scanf("%d",&b);
+
+  printf("m=?");
+
+  scanf("%f",&m);
+
+  printf("n=?");
+
+  scanf("%f",&n);
+  r=a/b;                 /***dividing two integers operands truncates the result of quotient***/
+  
+  x=m/n;
+  
+  y=n/m;                        /*** dividing two floating point numbers yields floating point quotient***/
+ 
+  z=m/a;  
+              
+                                 /***dividing one floating point operand by one integer operand yields floating point quotient***/
+  u=m/b;   
+  
+  v=a/n;                               /*** dividing integer operand by floating point  operand  yields floating point quotient***/  
+  printf("r=%d\n",r);
+  printf("x=%f\n",x);
+  printf("y=%f\n",y);
+  printf("z=%f\n",z);
+  printf("u=%f\n",u);
+  printf("v=%f\n",v);
+}
+
+
+

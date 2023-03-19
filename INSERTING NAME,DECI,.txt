@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+
+{
+char name[100];
+int i;
+float d;
+
+printf("ENTER YOUR NAME:");
+scanf("%s",&name);
+
+printf("Enter a decimal  value:");
+scanf("%f",&d);
+
+printf("Enter an integer value:");
+scanf("%d",&i);
+printf("\n\n");
+
+printf("Decimal value:%f\n",d);
+printf("Integer value:%d\n",i);
+printf("Name:%s\n",name);
+
+
+
+}
+

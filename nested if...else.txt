@@ -1,0 +1,21 @@
+/***Example #3: C Nested if...else statement***/
+
+/*** Program to relate two integers using =, > or < ***/
+#include<stdio.h>
+
+int main()
+{
+    int x,y;
+    printf("ENTER FIRST NUMBER:");
+    scanf("%d",&x);
+      printf("ENTER SECOND NUMBER:");
+    scanf("%d",&y);
+
+    if(x>y)
+        printf("Relation:%d>%d",x,y);
+    else if(x==y)
+        printf("Relation:%d=%d",x,y);
+    else
+        printf("Relation:%d<%d",x,y);
+
+}

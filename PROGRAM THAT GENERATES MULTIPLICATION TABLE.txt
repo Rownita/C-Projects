@@ -1,0 +1,13 @@
+/***A PROGRAM THAT GENERATES MULTIPLICATION TABLE***/
+#include<stdio.h>
+int main()
+{
+    int i,n,mult,m=10;
+    printf("ENTER A POSITIVE NATURAL NUMBER:");
+        scanf("%d",&n);
+        for(i=1;i<=m;++i)
+{
+    mult=n*i;
+    printf("%d x %d=%d\n",n,i,mult);
+}
+}

@@ -1,0 +1,29 @@
+/***A PROGRAM THAT DETERMINES LARGEST AMONG THREE NUMBERS***/
+
+#include<stdio.h>
+
+int main()
+{
+
+float x,y,z;
+
+printf("x=?");
+scanf("%f",&x);
+
+printf("y=?");
+scanf("%f",&y);
+
+printf("z=?");
+scanf("%f",&z);
+
+if(x<z&&y<z)
+printf("%f is the largest ",z);
+
+ else if(y<x&&x>z)
+ printf("%f is the largest",x);
+
+ else
+ printf("%f is the largest",y);
+
+
+}

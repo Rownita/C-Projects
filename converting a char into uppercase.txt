@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+char upper(char a)
+
+{
+if(a>='a'&&a<='z')
+return a-32;
+if(a>='A'&&a<='Z')
+return a;
+}
+
+int main()
+
+{
+char a;
+printf("ENTER THE CHARACTER:");
+scanf("%c",&a);
+upper(a);
+printf("In uppercase:%c",upper(a));
+return 0;
+}

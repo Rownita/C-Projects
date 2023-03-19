@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+int i,whitespaces,vowels,consonants,digits;       // DECLARING THE VARIABLES //
+whitespaces=vowels=consonants=digits=0;         //INITIALIZING THE VARIABLES //
+char a[50];
+printf("ENTER THE LINE:");
+gets(a);
+for(i=0;a[i]!='\0';i++)
+{
+if(a[i]>='0'&&a[i]<='9')
+
+{
+++digits;
+}
+
+else if(a[i]<=' ')
+{
+++whitespaces;
+}
+
+else if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'||a[i]=='A'||a[i]=='E'||a[i]=='I'||a[i]=='O'||a[i]=='U')
+{
+++vowels;
+}
+
+else if(((a[i]>'A'&&a[i]<='Z')||(a[i]>'a'&&a[i]<='z'))&&(a[i]!='a'||a[i]!='e'||a[i]!='i'||a[i]!='o'||a[i]!='u'||a[i]!='A'||a[i]!='E'||a[i]!='I'||a[i]!='O'||a[i]!='U'))
+{
+++consonants;
+}
+}
+printf("VOWELS:%d\n",vowels);
+printf("CONSONANTS:%d\n",consonants);
+printf("WHITE SPACES:%d\n",whitespaces);
+printf("DIGITS:%d\n",digits);
+}

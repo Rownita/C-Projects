@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<string.h>
+int strcompare(char a[],char b[])
+{
+int i,length,length1,length2;
+
+for(i=0;a[i]!='\0';i++)
+
+length1++;
+
+for(i=0;b[i]!='\0';i++)
+
+length2++;
+
+length=(length1<length2)?length1:length2;// LENGTH =LENGTH1 if (length1<length2) is true otherwise length=length2 //
+
+
+                              //loop will execute until the length of smaller string is approached by i //
+for(i=0;i<=length;i++)
+
+if(a[i]>b[i])
+
+return 1;                       // braces are not used because it is nested if ...else if...else for first unmatched character. //
+
+else if(a[i]<b[i])
+return -1;
+else (a[i]==b[i]);
+return 0;
+
+
+
+
+}
+int main()
+{
+char a[100],b[100];
+int result;
+printf("ENTER STRING 1:");
+gets(a);
+printf("ENTER STRING 2:");
+gets(b);
+result=strcompare(a,b);
+if(result==1)
+printf("STRING 1 IS GREATER THAN STRING 2.");
+else if(result==-1)
+printf("STRING 1 IS LESS THAN STRING 2.");
+else
+printf("STRING 1 AND STRING 2 ARE IDENTICAL.");
+
+return 0;
+}

@@ -1,0 +1,29 @@
+/***A program that demonstrates how logical operators work and their truth values***/
+
+
+
+#include<stdio.h>
+
+int main()
+
+{
+float a=10.00,b=20.05,c='A';
+
+printf("a=%f, b=%f, c=%f\n",a,b,c);
+
+int result1,result2,result3;
+
+result1=(a>5&&b==6);
+
+printf("(a>5&&b==6)=%d\n",result1);          //resut1,resut2 and result3 are truth values of expression1,expression2 and expression3//
+
+ result2=(b>21.05||c>='A');
+
+ printf("(b>21.05||c>='A')=%d\n",result2);
+
+ result3=(!(c>='B'));
+ printf("!(c>='B')=%d\n",result3);
+
+
+
+}

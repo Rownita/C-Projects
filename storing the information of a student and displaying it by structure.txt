@@ -1,0 +1,43 @@
+#include<stdio.h>
+
+struct student
+{
+ char name[50];
+ int idno ;
+ char fathername[50];
+ char mothername[50];
+ }student1;
+
+ struct dateofbirth
+ {
+ int day;
+ int month;
+ int year;
+ }birthdate;
+
+ int main()
+ {
+ printf("STORING THE INFORMATION OF STUDENT:\n");
+
+  printf("NAME:");
+  gets(student1.name);
+  printf("FATHER'S NAME':");
+  gets(student1.fathername);
+  printf("MOTHER'S NAME:");
+  gets(student1.mothername);
+  printf("ID NO. :");
+  scanf("%d",&student1.idno);
+  printf("DAY:");
+  scanf("%d",&birthdate.day);
+  printf("MONTH:");
+  scanf("%d",&birthdate.month);
+  printf("YEAR:");
+  scanf("%d",&birthdate.year);
+  printf("DISPLAYING THE INFORMATION OF THE STUDENT:\n");
+ printf("NAME:%s\n",student1.name);
+ printf("FATHER'S NAME:%s\n",student1.fathername);
+ printf("MOTHER'S NAME:%s\n",student1.mothername);
+ printf("DATE OF BIRTH:%d-%d-%d\n",birthdate.day,birthdate.month,birthdate.year);
+ printf("ID NO. :%d",student1.idno);
+
+ }

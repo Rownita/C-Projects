@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(){
+int i,a[100],n;
+printf("ENTER THE NUMBER OF ELEMENTS:");
+scanf("%d",&n);
+for(i=0;i<n;i++){
+printf("ENTER THE %d TH ELEMENT:",(i+1));
+scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++){
+if(a[0]<a[i])
+{
+
+a[0]=a[i];
+}
+}
+
+printf("THE LARGEST NUMBER :%d\n",a[0]);
+
+
+
+
+
+}

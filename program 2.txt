@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+#define PI 3.1416
+int main()
+{
+float radius,diameter,circumference,area;
+printf("RADIUS=?");
+scanf("%f",&radius);
+circumference=2*PI*radius;
+printf("CIRCUMFERENCE:%.3f\n",circumference);
+diameter=2*radius;
+printf("DIAMETER:%.3f\n",diameter);
+area=PI*pow(radius,2);
+printf("AREA:%.3f\n",area);
+
+}

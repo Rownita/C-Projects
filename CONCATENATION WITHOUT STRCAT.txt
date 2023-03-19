@@ -1,0 +1,45 @@
+#include<stdio.h>
+
+void stringcat(char a[],char b[])
+
+{
+int i,len=0,j;                  //initializing and declaring the len variable and declaring other variables //
+
+for(i=0;a[i]!='\0';i++)              // FINDING THE LENGTH OF THE DESTINATION STRING //
+
+{
+len++;
+
+}
+
+for(i=len,j=0;b[j]!='\0';j++,i++) 
+                                              
+
+{
+a[i]=b[j];               //assigning the elements of source string to destination string //
+}
+
+a[i]='\0';           // AT LAST NULL CHARACTER WILL BE APPENDED //
+}
+
+int main()
+
+{
+
+char a[100],b[100];
+
+printf("ENTER STRING 1:");
+
+gets(a);
+
+printf("ENTER STRING 2 :");
+
+gets(b);
+
+stringcat(a,b);
+
+printf("AFTER CONCATENATION:%s\n",a);
+
+return 0;
+
+}

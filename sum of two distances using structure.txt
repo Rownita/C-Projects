@@ -1,0 +1,39 @@
+#include<stdio.h>
+
+struct dist
+{
+int feet;
+float inch;
+}dist1,dist2,sum1,sum2;
+int main()
+{
+int x;
+float y;
+printf("ENTER FIRST DISTANCE:\n");
+printf("feet:");
+scanf("%d",&dist1.feet);
+printf("inch:");
+scanf("%f",&dist1.inch);
+printf("ENTER SECOND DISTANCE:\n");
+printf("feet:");
+scanf("%d",&dist2.feet);
+printf("inch:");
+scanf("%f",&dist2.inch);
+sum1.feet=dist1.feet+dist2.feet;
+sum2.inch=dist1.inch+dist2.inch;
+if(sum2.inch==12)
+{
+sum1.feet++;
+printf("1.sum of two distance:%d'",sum1.feet);
+}
+if(sum2.inch>12)
+{
+x=sum2.inch/12;
+sum1.feet=sum1.feet+x;
+y=sum2.inch-x*12;
+printf("sum of two distances:%d'-%.3f''",sum1.feet,y);
+}
+if(sum2.inch<12.00)
+    printf("sum of two distances:%d'-%.3f''",sum1.feet,sum2.inch);
+
+}

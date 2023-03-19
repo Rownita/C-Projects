@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+float x;
+int y;
+printf("x=?");
+scanf("%f",&x); // the division operator can divide two int or two float or mixed types
+               // but it truncates the result and only shows the int part of the quotient.//
+y=x/12;
+printf("result:%d",y);
+
+}
